@@ -1,0 +1,1 @@
+# AGH-Scala-Image-Compresor
