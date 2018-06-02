@@ -1,5 +1,6 @@
 import java.io.File
 import javax.imageio.ImageIO
+import java.awt.image.BufferedImage
 import breeze.linalg._
 
 
@@ -97,6 +98,18 @@ object Appl {
     projectedMatrix
   }
 
+  def saveImage(matrix: DenseMatrix[Int], filename: String, height: Int, width: Int): Unit = {
+    val newImage = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB)
+
+    for (x <- 0 until width)
+      for (y <- 0 until height){
+        val rgbValue = (matrix(x+y*width, 0) * 65536 + matrix(x+y*width, 1) * 256 + matrix(x+y*width, 2)) & 0xffffff
+        newImage.setRGB(x, y, rgbValue)
+      }
+
+    ImageIO.write(newImage, "jpg", new File(filename))
+  }
+
 
   def main(args: Array[String]): Unit = {
     val photo = ImageIO.read(new File(args(0)))
@@ -111,19 +124,21 @@ object Appl {
     }
 
 
-    val finalCentroids = runKMeans(matrix, 10, 5)
+    val finalCentroids = runKMeans(matrix, 16, 5)
     println(finalCentroids)
 
     val newImage = projectColors(matrix, finalCentroids)
-    println(newImage(1,::))
-    println(newImage(100,::))
-    println(newImage(202,::))
-    println(newImage(900,::))
-    println(newImage(1000,::))
-    println(newImage(1500,::))
-    println(newImage(2000,::))
-    println(newImage(2500,::))
-    println(newImage(3000,::))
+//    println(newImage(1,::))
+//    println(newImage(100,::))
+//    println(newImage(202,::))
+//    println(newImage(900,::))
+//    println(newImage(1000,::))
+//    println(newImage(1500,::))
+//    println(newImage(2000,::))
+//    println(newImage(2500,::))
+//    println(newImage(3000,::))
+
+    saveImage(newImage, "compressedImage.jpg", photo.getHeight, photo.getWidth)
 
 }}
 
