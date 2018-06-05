@@ -17,7 +17,7 @@ object ImageCompressor {
       matrix(x + y * width, 2) = image.getRGB(x, y) & 0x0000ff
     }
 
-    val finalCentroids = runKMeans(matrix, 6, 5)
+    val finalCentroids = runKMeans(matrix, colors, iterations)
 
     val newMatrix = projectColors(matrix, finalCentroids)
 
@@ -50,9 +50,38 @@ object ImageCompressor {
     for (i <- 0 until centroidNumber) {
       centroidMatrix(i, ::) :+= matrix(centroids(i), ::)
     }
-
     centroidMatrix
   }
+
+  def optimiseInitialisation(matrix: DenseMatrix[Int], centroidNumber: Int): DenseMatrix[Int] = {
+    var actualCentroids = initRandomCentroids(matrix, centroidNumber, matrix.rows)
+
+    for (i <- 0 until 5){
+      val actualPixelsClosestCentroids = findClosestCentroids(matrix, actualCentroids)
+      val actualError = calculateError(matrix, actualPixelsClosestCentroids)
+
+      val newCentroids = initRandomCentroids(matrix, centroidNumber, matrix.rows)
+
+      val newPixelsClosestCentroids = findClosestCentroids(matrix, newCentroids)
+      val newError = calculateError(matrix, newPixelsClosestCentroids)
+
+      if (newError < actualError)
+        actualCentroids = newCentroids
+    }
+    actualCentroids
+  }
+
+  def calculateError(matrix: DenseMatrix[Int], pixelsClosestCentroids : DenseVector[Int]): Int = {
+    var error = 0
+
+    for (pixel <- 0 until matrix.rows) {
+      val pixelCentroid = pixelsClosestCentroids.valueAt(pixel)
+      val tmp_error = matrix(pixelCentroid, ::) - matrix(pixel, ::)
+      error = error +  sum(tmp_error.t.map((x: Int) => Math.abs(x)))
+    }
+    error
+  }
+
 
 
   def findClosestCentroids(matrix: DenseMatrix[Int], centroids: DenseMatrix[Int]): DenseVector[Int] = {
@@ -90,7 +119,7 @@ object ImageCompressor {
   }
 
   def runKMeans(matrix: DenseMatrix[Int], centroidNumber: Int, maxIter: Int): DenseMatrix[Int] = {
-    var centroids = initRandomCentroids(matrix, centroidNumber, matrix.rows)
+    var centroids = optimiseInitialisation(matrix, centroidNumber)
     for (i <- 0 until maxIter) {
       val idx = findClosestCentroids(matrix, centroids)
       centroids = computeCentroids(matrix, idx)
