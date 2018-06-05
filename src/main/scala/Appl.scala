@@ -21,10 +21,9 @@ object Appl {
     var centroidMatrix = DenseMatrix.zeros[Int](centroidNumber, 3)
 
     for (i <- 0 until centroidNumber){
-      centroidMatrix(i,0) = matrix(centroids(i), 0)
-      centroidMatrix(i,1) = matrix(centroids(i), 1)
-      centroidMatrix(i,2) = matrix(centroids(i), 2)
+      centroidMatrix(i,::) :+= matrix(centroids(i), ::)
     }
+
     centroidMatrix
   }
 
@@ -43,7 +42,7 @@ object Appl {
 
   def computeCentroids(matrix: DenseMatrix[Int], idx: DenseVector[Int]): DenseMatrix[Int] = {
 
-    var newCentroids = DenseMatrix.zeros[Double](max(idx)+1, 3)
+    val newCentroids = DenseMatrix.zeros[Double](max(idx)+1, 3)
 
     for (i <- 0 until max(idx)+1 ) {
       val oneCentroidPixels = idx.findAll((v: Int) => v == i)
@@ -51,16 +50,13 @@ object Appl {
       val A = DenseMatrix.zeros[Int](matrix.rows, 3)
 
       for (i <- oneCentroidPixels){
-        A(i, 0) = matrix(i, 0)
-        A(i, 1) = matrix(i, 1)
-        A(i, 2) = matrix(i, 2)
+        A(i, ::) :+= matrix(i, ::)
       }
 
-      var B = sum(A(::, *))
+      val B = sum(A(::, *)).t
+      B :/= oneCentroidPixels.length
 
-      B = B :/= oneCentroidPixels.length
-
-      newCentroids(i, 0) = B(0)
+      newCentroids(i, 0) =  B(0)
       newCentroids(i, 1) = B(1)
       newCentroids(i, 2) = B(2)
     }
@@ -70,29 +66,21 @@ object Appl {
 
   def runKMeans(matrix: DenseMatrix[Int], centroidNumber: Int, maxIter: Int): DenseMatrix[Int] ={
     var centroids = initRandomCentroids(matrix,centroidNumber, matrix.rows)
-//    println(centroids)
-//    println()
-
     for (i <- 0 until maxIter){
-      var idx = findClosestCentroids(matrix, centroids)
+      val idx = findClosestCentroids(matrix, centroids)
       centroids = computeCentroids(matrix, idx)
-//      println(centroids, "\n")
-//      println()
-
     }
     centroids
   }
 
   def projectColors(matrix: DenseMatrix[Int], centroids: DenseMatrix[Int]): DenseMatrix[Int] = {
-    var projectedMatrix = matrix.copy
+    val projectedMatrix: DenseMatrix[Int] = DenseMatrix.zeros[Int](matrix.rows, 3)
     for (i <- 0 until matrix.rows) {
-      var A = centroids(*, ::) - matrix(i, ::).t
-      A = A *:* A
+      val A = centroids(*, ::) - matrix(i, ::).t
+      A :*= A
       val B = sum(A(*, ::))
       val closestCentroid = argmin(B)
-      projectedMatrix(i, 0) = centroids(closestCentroid, 0)
-      projectedMatrix(i, 1) = centroids(closestCentroid, 1)
-      projectedMatrix(i, 2) = centroids(closestCentroid, 2)
+      projectedMatrix(i, ::) :+= centroids(closestCentroid, ::)
     }
 
     projectedMatrix
@@ -112,7 +100,7 @@ object Appl {
 
 
   def main(args: Array[String]): Unit = {
-    val photo = ImageIO.read(new File("background.jpg"))
+    val photo = ImageIO.read(new File(args(0)))
     println("Photo size is " + photo.getWidth + " x " + photo.getHeight + "\n")
 
     val matrix = DenseMatrix.zeros[Int](photo.getWidth * photo.getHeight, 3)
@@ -124,19 +112,10 @@ object Appl {
     }
 
 
-    val finalCentroids = runKMeans(matrix, 12, 10)
+    val finalCentroids = runKMeans(matrix, 6, 5)
     println(finalCentroids)
 
     val newImage = projectColors(matrix, finalCentroids)
-//    println(newImage(1,::))
-//    println(newImage(100,::))
-//    println(newImage(202,::))
-//    println(newImage(900,::))
-//    println(newImage(1000,::))
-//    println(newImage(1500,::))
-//    println(newImage(2000,::))
-//    println(newImage(2500,::))
-//    println(newImage(3000,::))
 
     saveImage(newImage, "compressedImage.jpg", photo.getHeight, photo.getWidth)
 

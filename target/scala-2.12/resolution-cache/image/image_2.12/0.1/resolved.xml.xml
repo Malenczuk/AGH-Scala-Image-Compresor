@@ -4,7 +4,7 @@
 		module="image_2.12"
 		revision="0.1"
 		status="integration"
-		publication="20180529232957"
+		publication="20180605123749"
 	>
 		<description>
 		Image
@@ -35,5 +35,6 @@
 		<dependency org="org.scalanlp" name="breeze_2.12" rev="0.13.2" conf="compile->default(compile)"/>
 		<dependency org="org.scalanlp" name="breeze-natives_2.12" rev="0.13.2" conf="compile->default(compile)"/>
 		<dependency org="org.scalanlp" name="breeze-viz_2.12" rev="0.13.2" conf="compile->default(compile)"/>
+		<dependency org="org.scalafx" name="scalafx_2.12" rev="8.0.144-R12" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

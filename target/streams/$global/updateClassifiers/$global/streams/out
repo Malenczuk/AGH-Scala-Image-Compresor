@@ -134,6 +134,21 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->commons-logging#commons-logging;1.0.4 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->commons-logging#commons-logging;1.0.4 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->commons-logging#commons-logging;1.0.4 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scalafx#scalafx_2.12;8.0.144-R12 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.scalafx#scalafx_2.12;8.0.144-R12[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.scalafx#scalafx_2.12;8.0.144-R12 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->net.sf.opencsv#opencsv;2.3 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: net.sf.opencsv#opencsv;2.3 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: net.sf.opencsv#opencsv;2.3[0m
@@ -525,6 +540,18 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->commons-logging#commons-logging;1.0.4 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->commons-logging#commons-logging;1.0.4 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->commons-logging#commons-logging;1.0.4 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->net.sf.opencsv#opencsv;2.3 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->net.sf.opencsv#opencsv;2.3 [compile->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->net.sf.opencsv#opencsv;2.3 [compile->compile][0m
@@ -837,6 +864,18 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->commons-logging#commons-logging;1.0.4 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->commons-logging#commons-logging;1.0.4 [runtime->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->commons-logging#commons-logging;1.0.4 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [runtime->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [runtime->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [runtime->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->net.sf.opencsv#opencsv;2.3 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->net.sf.opencsv#opencsv;2.3 [runtime->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->net.sf.opencsv#opencsv;2.3 [runtime->compile][0m
@@ -1153,6 +1192,18 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->commons-logging#commons-logging;1.0.4 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->commons-logging#commons-logging;1.0.4 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->commons-logging#commons-logging;1.0.4 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->net.sf.opencsv#opencsv;2.3 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->net.sf.opencsv#opencsv;2.3 [compile->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->net.sf.opencsv#opencsv;2.3 [compile->compile][0m
@@ -1465,6 +1516,18 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->commons-logging#commons-logging;1.0.4 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->commons-logging#commons-logging;1.0.4 [runtime->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->commons-logging#commons-logging;1.0.4 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [runtime->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [runtime->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [runtime->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->net.sf.opencsv#opencsv;2.3 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->net.sf.opencsv#opencsv;2.3 [runtime->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->net.sf.opencsv#opencsv;2.3 [runtime->compile][0m
@@ -1777,6 +1840,18 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->commons-logging#commons-logging;1.0.4 [test->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->commons-logging#commons-logging;1.0.4 [test->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->commons-logging#commons-logging;1.0.4 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [test->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [test->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [test->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->net.sf.opencsv#opencsv;2.3 [test->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->net.sf.opencsv#opencsv;2.3 [test->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->net.sf.opencsv#opencsv;2.3 [test->compile][0m
@@ -2096,6 +2171,18 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->commons-logging#commons-logging;1.0.4 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->commons-logging#commons-logging;1.0.4 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->commons-logging#commons-logging;1.0.4 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->net.sf.opencsv#opencsv;2.3 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->net.sf.opencsv#opencsv;2.3 [compile->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->net.sf.opencsv#opencsv;2.3 [compile->compile][0m
@@ -2410,6 +2497,18 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->commons-logging#commons-logging;1.0.4 [compile-internal->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->commons-logging#commons-logging;1.0.4 [compile-internal->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->commons-logging#commons-logging;1.0.4 [compile-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile-internal->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile-internal->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile-internal->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->net.sf.opencsv#opencsv;2.3 [compile-internal->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->net.sf.opencsv#opencsv;2.3 [compile-internal->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->net.sf.opencsv#opencsv;2.3 [compile-internal->compile][0m
@@ -2726,6 +2825,18 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->commons-logging#commons-logging;1.0.4 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->commons-logging#commons-logging;1.0.4 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->commons-logging#commons-logging;1.0.4 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->net.sf.opencsv#opencsv;2.3 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->net.sf.opencsv#opencsv;2.3 [compile->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->net.sf.opencsv#opencsv;2.3 [compile->compile][0m
@@ -3038,6 +3149,18 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->commons-logging#commons-logging;1.0.4 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->commons-logging#commons-logging;1.0.4 [runtime->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->commons-logging#commons-logging;1.0.4 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [runtime->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [runtime->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [runtime->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->net.sf.opencsv#opencsv;2.3 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->net.sf.opencsv#opencsv;2.3 [runtime->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->net.sf.opencsv#opencsv;2.3 [runtime->compile][0m
@@ -3351,6 +3474,18 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->commons-logging#commons-logging;1.0.4 [runtime-internal->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->commons-logging#commons-logging;1.0.4 [runtime-internal->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->commons-logging#commons-logging;1.0.4 [runtime-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [runtime-internal->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [runtime-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [runtime-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [runtime-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [runtime-internal->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [runtime-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [runtime-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [runtime-internal->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->net.sf.opencsv#opencsv;2.3 [runtime-internal->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->net.sf.opencsv#opencsv;2.3 [runtime-internal->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->net.sf.opencsv#opencsv;2.3 [runtime-internal->compile][0m
@@ -3668,6 +3803,18 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->commons-logging#commons-logging;1.0.4 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->commons-logging#commons-logging;1.0.4 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->commons-logging#commons-logging;1.0.4 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->net.sf.opencsv#opencsv;2.3 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->net.sf.opencsv#opencsv;2.3 [compile->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->net.sf.opencsv#opencsv;2.3 [compile->compile][0m
@@ -3980,6 +4127,18 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->commons-logging#commons-logging;1.0.4 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->commons-logging#commons-logging;1.0.4 [runtime->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->commons-logging#commons-logging;1.0.4 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [runtime->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [runtime->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [runtime->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->net.sf.opencsv#opencsv;2.3 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->net.sf.opencsv#opencsv;2.3 [runtime->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->net.sf.opencsv#opencsv;2.3 [runtime->compile][0m
@@ -4292,6 +4451,18 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->commons-logging#commons-logging;1.0.4 [test->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->commons-logging#commons-logging;1.0.4 [test->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->commons-logging#commons-logging;1.0.4 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [test->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [test->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [test->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->net.sf.opencsv#opencsv;2.3 [test->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->net.sf.opencsv#opencsv;2.3 [test->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->net.sf.opencsv#opencsv;2.3 [test->compile][0m
@@ -4606,6 +4777,18 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->commons-logging#commons-logging;1.0.4 [test-internal->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->commons-logging#commons-logging;1.0.4 [test-internal->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->commons-logging#commons-logging;1.0.4 [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [test-internal->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [test-internal->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scalafx#scalafx_2.12;8.0.144-R12 [test-internal->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->net.sf.opencsv#opencsv;2.3 [test-internal->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->net.sf.opencsv#opencsv;2.3 [test-internal->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->net.sf.opencsv#opencsv;2.3 [test-internal->compile][0m
@@ -4883,46 +5066,69 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies image#image$sources;0.1->org.scala-lang#scala-reflect;2.12.6 [scala-tool->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m	resolved ivy file produced in cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m:: downloading artifacts ::[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_system-osx-x86_64;1.1!netlib-native_system-osx-x86_64.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] jfree#jcommon;1.0.16!jcommon.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.spire-math#spire_2.12;0.13.0!spire_2.12.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.typelevel#macro-compat_2.12;1.1.1!macro-compat_2.12.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scalanlp#breeze_2.12;0.13.2!breeze_2.12.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.fommil#jniloader;1.1!jniloader.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.5!slf4j-api.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_ref-win-i686;1.1!netlib-native_ref-win-i686.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scalanlp#breeze-viz_2.12;0.13.2!breeze-viz_2.12.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] commons-io#commons-io;1.3.1!commons-io.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.6!scala-reflect.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.lowagie#itext;2.1.5!itext.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-library;2.12.6!scala-library.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.6!scala-compiler.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1!netlib-native_system-linux-x86_64.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1!netlib-native_ref-linux-i686.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_system-win-i686;1.1!netlib-native_system-win-i686.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.rwl#jtransforms;2.4.0!jtransforms.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.fommil.netlib#core;1.1.2!core.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] commons-logging#commons-logging;1.0.4!commons-logging.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.chuusai#shapeless_2.12;2.3.2!shapeless_2.12.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scalanlp#breeze-macros_2.12;0.13.2!breeze-macros_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.fommil#jniloader;1.1!jniloader.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_system-win-x86_64;1.1!netlib-native_system-win-x86_64.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scalanlp#breeze-natives_2.12;0.13.2!breeze-natives_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /home/mdronski/.ivy2/local/org.scalafx/scalafx_2.12/8.0.144-R12/srcs/scalafx_2.12-sources.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.fommil.netlib#native_ref-java;1.1!native_ref-java.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scalafx/scalafx_2.12/8.0.144-R12/scalafx_2.12-8.0.144-R12-sources.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.6!scala-reflect.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_system-linux-armhf;1.1!netlib-native_system-linux-armhf.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1!netlib-native_ref-linux-armhf.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.6!scala-compiler.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.spire-math#spire-macros_2.12;0.13.0!spire-macros_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.typelevel#machinist_2.12;0.6.1!machinist_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_ref-win-x86_64;1.1!netlib-native_ref-win-x86_64.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_ref-linux-x86_64;1.1!netlib-native_ref-linux-x86_64.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.fommil.netlib#native_system-java;1.1!native_system-java.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] junit#junit;4.8.2!junit.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] jfree#jcommon;1.0.16!jcommon.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scalanlp#breeze_2.12;0.13.2!breeze_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.typelevel#macro-compat_2.12;1.1.1!macro-compat_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.5!slf4j-api.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] commons-io#commons-io;1.3.1!commons-io.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.commons#commons-math3;3.2!commons-math3.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scalanlp#breeze-viz_2.12;0.13.2!breeze-viz_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1!netlib-native_ref-linux-i686.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.spire-math#spire_2.12;0.13.0!spire_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-library;2.12.6!scala-library.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_ref-win-i686;1.1!netlib-native_ref-win-i686.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_system-win-i686;1.1!netlib-native_system-win-i686.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1!netlib-native_system-linux-x86_64.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_system-osx-x86_64;1.1!netlib-native_system-osx-x86_64.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_ref-osx-x86_64;1.1!netlib-native_ref-osx-x86_64.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_system-linux-i686;1.1!netlib-native_system-linux-i686.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_system-win-x86_64;1.1!netlib-native_system-win-x86_64.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_ref-linux-x86_64;1.1!netlib-native_ref-linux-x86_64.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] net.sf.opencsv#opencsv;2.3!opencsv.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] commons-logging#commons-logging;1.0.4!commons-logging.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_system-linux-armhf;1.1!netlib-native_system-linux-armhf.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scalanlp#breeze-natives_2.12;0.13.2!breeze-natives_2.12.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1!netlib-native_ref-linux-armhf.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_ref-win-x86_64;1.1!netlib-native_ref-win-x86_64.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.fommil.netlib#native_ref-java;1.1!native_ref-java.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.spire-math#spire-macros_2.12;0.13.0!spire-macros_2.12.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.fommil.netlib#native_system-java;1.1!native_system-java.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.typelevel#machinist_2.12;0.6.1!machinist_2.12.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] junit#junit;4.8.2!junit.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.fommil.netlib#core;1.1.2!core.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.rwl#jtransforms;2.4.0!jtransforms.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.chuusai#shapeless_2.12;2.3.2!shapeless_2.12.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.commons#commons-math3;3.2!commons-math3.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m:: resolution report :: resolve 1244ms :: artifacts dl 12ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.lowagie#itext;2.1.5!itext.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/mdronski/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/mdronski/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/mdronski/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/mdronski/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/mdronski/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/mdronski/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/mdronski/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (5ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/mdronski/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/scalafx/scalafx_2.12/8.0.144-R12/scalafx_2.12-8.0.144-R12-sources.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scalafx/scalafx_2.12/8.0.144-R12/scalafx_2.12-8.0.144-R12-sources.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scalafx/scalafx_2.12/8.0.144-R12/scalafx_2.12-8.0.144-R12-sources.jar.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/scalafx/scalafx_2.12/8.0.144-R12/scalafx_2.12-8.0.144-R12-sources.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] org.scalafx#scalafx_2.12;8.0.144-R12!scalafx_2.12.jar(src) (385ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: resolution report :: resolve 322ms :: artifacts dl 400ms[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for image#image$sources;0.1 compile produced in /home/mdronski/Scala/AGH-Scala-Image-Compresor/target/scala-2.12/resolution-cache/reports/image-image$sources-compile.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for image#image$sources;0.1 runtime produced in /home/mdronski/Scala/AGH-Scala-Image-Compresor/target/scala-2.12/resolution-cache/reports/image-image$sources-runtime.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for image#image$sources;0.1 test produced in /home/mdronski/Scala/AGH-Scala-Image-Compresor/target/scala-2.12/resolution-cache/reports/image-image$sources-test.xml[0m
@@ -4934,4 +5140,4 @@
 [0m[[0m[0mdebug[0m] [0m[0m	report for image#image$sources;0.1 plugin produced in /home/mdronski/Scala/AGH-Scala-Image-Compresor/target/scala-2.12/resolution-cache/reports/image-image$sources-plugin.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for image#image$sources;0.1 pom produced in /home/mdronski/Scala/AGH-Scala-Image-Compresor/target/scala-2.12/resolution-cache/reports/image-image$sources-pom.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for image#image$sources;0.1 scala-tool produced in /home/mdronski/Scala/AGH-Scala-Image-Compresor/target/scala-2.12/resolution-cache/reports/image-image$sources-scala-tool.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	resolve done (1244ms resolve - 12ms download)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	resolve done (322ms resolve - 400ms download)[0m
