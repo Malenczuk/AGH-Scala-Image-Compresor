@@ -5,7 +5,6 @@ import scalafx.scene.image.{Image, ImageView}
 import scalafx.scene.paint.Color._
 import scalafx.scene.shape.Rectangle
 
-
 object Gui extends JFXApp {
   stage = new JFXApp.PrimaryStage {
     title.value = "Hello Stage"
@@ -13,7 +12,7 @@ object Gui extends JFXApp {
     height = 750
     scene = new Scene(400, 400) {
       val imageView = new ImageView(new Image("file:Stonehenge.jpg"))
-        content = imageView
+      content = imageView
     }
   }
 
