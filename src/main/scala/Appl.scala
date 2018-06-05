@@ -119,6 +119,7 @@ object Appl {
 
     saveImage(newImage, "compressedImage.jpg", photo.getHeight, photo.getWidth)
 
-}}
+  }
+}
 
 
