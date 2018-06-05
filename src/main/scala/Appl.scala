@@ -112,7 +112,7 @@ object Appl {
 
 
   def main(args: Array[String]): Unit = {
-    val photo = ImageIO.read(new File(args(0)))
+    val photo = ImageIO.read(new File("background.jpg"))
     println("Photo size is " + photo.getWidth + " x " + photo.getHeight + "\n")
 
     val matrix = DenseMatrix.zeros[Int](photo.getWidth * photo.getHeight, 3)
@@ -124,7 +124,7 @@ object Appl {
     }
 
 
-    val finalCentroids = runKMeans(matrix, 16, 5)
+    val finalCentroids = runKMeans(matrix, 12, 10)
     println(finalCentroids)
 
     val newImage = projectColors(matrix, finalCentroids)

@@ -1,0 +1,10 @@
+[0m[[0m[31merror[0m] [0m[0m/home/mdronski/Scala/AGH-Scala-Image-Compresor/src/main/scala/Appl.scala:118:21: could not find implicit value for parameter canSlice: breeze.linalg.support.CanSlice[breeze.linalg.DenseMatrix[Int],scala.collection.immutable.Range.Inclusive,Result][0m
+[0m[[0m[31merror[0m] [0m[0m    println(newImage(0 to 20))[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/mdronski/Scala/AGH-Scala-Image-Compresor/src/main/scala/Appl.scala:120:21: could not find implicit value for parameter canSlice: breeze.linalg.support.CanSlice[breeze.linalg.DenseMatrix[Int],scala.collection.immutable.Range.Inclusive,Result][0m
+[0m[[0m[31merror[0m] [0m[0m    println(newImage(100 to 120))[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/mdronski/Scala/AGH-Scala-Image-Compresor/src/main/scala/Appl.scala:122:21: could not find implicit value for parameter canSlice: breeze.linalg.support.CanSlice[breeze.linalg.DenseMatrix[Int],scala.collection.immutable.Range.Inclusive,Result][0m
+[0m[[0m[31merror[0m] [0m[0m    println(newImage(500 to 520))[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
