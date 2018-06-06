@@ -1,6 +1,10 @@
 import java.awt.image.BufferedImage
 import java.io.File
 
+import scala.concurrent.{Await, Future}
+import scala.concurrent.duration._
+import scala.concurrent.ExecutionContext.Implicits.global
+
 import breeze.linalg._
 import javax.imageio.ImageIO
 
@@ -54,21 +58,32 @@ object ImageCompressor {
   }
 
   def optimiseInitialisation(matrix: DenseMatrix[Int], centroidNumber: Int): DenseMatrix[Int] = {
-    var actualCentroids = initRandomCentroids(matrix, centroidNumber, matrix.rows)
+    val iterationsNumber = 10
+    val futureCentroids: Array[Future[(Int, DenseMatrix[Int])]] = new Array[Future[(Int, DenseMatrix[Int])]](iterationsNumber)
 
-    for (i <- 0 until 5){
-      val actualPixelsClosestCentroids = findClosestCentroids(matrix, actualCentroids)
-      val actualError = calculateError(matrix, actualPixelsClosestCentroids)
+    for (i <- 0 until iterationsNumber){
 
-      val newCentroids = initRandomCentroids(matrix, centroidNumber, matrix.rows)
-
-      val newPixelsClosestCentroids = findClosestCentroids(matrix, newCentroids)
-      val newError = calculateError(matrix, newPixelsClosestCentroids)
-
-      if (newError < actualError)
-        actualCentroids = newCentroids
+      val computation: Future[(Int, DenseMatrix[Int])] = Future {
+        val actualCentroids = initRandomCentroids(matrix, centroidNumber, matrix.rows)
+        val actualPixelsClosestCentroids = findClosestCentroids(matrix, actualCentroids)
+        val actualError = calculateError(matrix, actualPixelsClosestCentroids)
+        (actualError, actualCentroids)
+      }
+      futureCentroids(i) = computation
     }
-    actualCentroids
+
+    val centroidArray: Array[(Int, DenseMatrix[Int])] = new Array[(Int, DenseMatrix[Int])](iterationsNumber)
+    for (i <- 0 until iterationsNumber) {
+      centroidArray(i) = Await.result(futureCentroids(i), 90 seconds)
+    }
+
+    val bestCentroids = centroidArray.fold(centroidArray(0))(
+      ( tuple1: (Int, DenseMatrix[Int]), tuple2: (Int, DenseMatrix[Int]) ) => {
+      if (tuple1._1 < tuple2._1) tuple1
+      else tuple2
+    })
+
+    bestCentroids._2
   }
 
   def calculateError(matrix: DenseMatrix[Int], pixelsClosestCentroids : DenseVector[Int]): Int = {
@@ -82,39 +97,49 @@ object ImageCompressor {
     error
   }
 
-
-
   def findClosestCentroids(matrix: DenseMatrix[Int], centroids: DenseMatrix[Int]): DenseVector[Int] = {
+    val futureIdx: Array[Future[Int]] = new Array[Future[Int]](matrix.rows)
     val idx = DenseVector.zeros[Int](matrix.rows)
+
     for (i <- 0 until matrix.rows) {
-      var A = centroids(*, ::) - matrix(i, ::).t
-      A = A *:* A
-      val B = sum(A(*, ::))
-      idx(i) = argmin(B)
+      futureIdx(i) = Future {
+        val A = centroids(*, ::) - matrix(i, ::).t
+        A :*= A
+        val B = sum(A(*, ::))
+        argmin(B)
+      }
+    }
+
+    for (i <- 0 until matrix.rows){
+      idx(i) = Await.result(futureIdx(i), 90 seconds)
     }
     idx
   }
 
-
   def computeCentroids(matrix: DenseMatrix[Int], idx: DenseVector[Int]): DenseMatrix[Int] = {
+    val futureCentroids: Array[Future[DenseVector[Int]]] = new Array[Future[DenseVector[Int]]](max(idx) + 1)
 
     val newCentroids = DenseMatrix.zeros[Int](max(idx) + 1, 3)
 
     for (i <- 0 until max(idx) + 1) {
-      val oneCentroidPixels = idx.findAll((v: Int) => v == i)
+      futureCentroids(i) = Future {
+        val oneCentroidPixels = idx.findAll((v: Int) => v == i)
 
-      val A = DenseMatrix.zeros[Int](matrix.rows, 3)
+        val A = DenseMatrix.zeros[Int](matrix.rows, 3)
 
-      for (i <- oneCentroidPixels) {
-        A(i, ::) :+= matrix(i, ::)
+        for (i <- oneCentroidPixels) {
+          A(i, ::) :+= matrix(i, ::)
+        }
+
+        val B = sum(A(::, *))
+        B :/= oneCentroidPixels.length
+        B.t
       }
-
-      val B = sum(A(::, *))
-      B :/= oneCentroidPixels.length
-
-      newCentroids(i, ::) :+= B
     }
 
+    for (i <- 0 until max(idx) + 1) {
+      newCentroids(i, ::) :+= Await.result(futureCentroids(i), 90 seconds).t
+    }
     newCentroids
   }
 
