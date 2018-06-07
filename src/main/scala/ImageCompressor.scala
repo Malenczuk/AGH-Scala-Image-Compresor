@@ -74,7 +74,7 @@ object ImageCompressor {
 
     val centroidArray: Array[(Int, DenseMatrix[Int])] = new Array[(Int, DenseMatrix[Int])](iterationsNumber)
     for (i <- 0 until iterationsNumber) {
-      centroidArray(i) = Await.result(futureCentroids(i), 90 seconds)
+      centroidArray(i) = Await.result(futureCentroids(i), Duration.Inf)
     }
 
     val bestCentroids = centroidArray.fold(centroidArray(0))(
@@ -111,7 +111,7 @@ object ImageCompressor {
     }
 
     for (i <- 0 until matrix.rows){
-      idx(i) = Await.result(futureIdx(i), 90 seconds)
+      idx(i) = Await.result(futureIdx(i), Duration.Inf)
     }
     idx
   }
@@ -138,7 +138,7 @@ object ImageCompressor {
     }
 
     for (i <- 0 until max(idx) + 1) {
-      newCentroids(i, ::) :+= Await.result(futureCentroids(i), 90 seconds).t
+      newCentroids(i, ::) :+= Await.result(futureCentroids(i), Duration.Inf).t
     }
     newCentroids
   }
