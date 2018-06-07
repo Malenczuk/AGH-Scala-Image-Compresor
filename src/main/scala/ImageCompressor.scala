@@ -132,7 +132,8 @@ object ImageCompressor {
         }
 
         val B = sum(A(::, *))
-        B :/= oneCentroidPixels.length
+        if(oneCentroidPixels.nonEmpty)
+          B :/= oneCentroidPixels.length
         B.t
       }
     }
