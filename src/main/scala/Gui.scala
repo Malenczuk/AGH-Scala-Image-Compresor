@@ -16,7 +16,7 @@ import scalafx.scene.image.ImageView
 import scalafx.scene.layout.{BorderPane, Priority, TilePane, VBox}
 import scalafx.stage.{FileChooser, Screen}
 
-object Window extends JFXApp {
+object Gui extends JFXApp {
   private var inputImage: BufferedImage = _
   private var outputImage: BufferedImage = _
   private val inputImageView = new ImageView {
